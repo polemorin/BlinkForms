@@ -1,0 +1,22 @@
+{
+  "formName": "Restaurant",
+  "questions": [
+    {
+      "question": "What is your name?",
+      "type": "TEXT",
+	  "mandatory": true
+    },
+    {
+      "question": "Choose a dish",
+      "type": "MULTIPLE_CHOICE",
+      "options": ["pizza", "hamburger"],
+	  "mandatory": true
+    },
+    {
+      "question": "Choose toppings",
+      "type": "MULTIPLE_CHOICE",
+      "options": ["olives", "onions","tomatoes"],
+	  "mandatory": true
+    }
+  ]
+}
